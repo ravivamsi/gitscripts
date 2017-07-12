@@ -1,0 +1,51 @@
+// You are trying to merge a branch "A-source" into branch "B-destination"
+// Assuming you have the git repository cloned into your workspace
+// Assuming you have commits in the A-source which are not present in the B-destination
+
+// Checkout the B-destination branch
+git checkout B-destination
+
+// Once you are on the B-destination branch
+git merge A-source
+
+// If you don't have any merge conflicts, it is a fast farword merge 
+git push origin B-destination
+
+// If you have conflicts in the files, you will have to resolve them manually 
+Ex:
+<<<<<<<HEAD
+
+Changes here are from the A-source branch
+
+=======
+
+Code here is from the B-destination branch(your changes)
+
+>>>>>>>branchname
+
+
+// Get the latest changes of your code remove the code which is not required
+// Remove the <<<<<<<<<
+// Remove the ========
+// Remove the >>>>>>>>> also
+
+// Check the status 
+git status
+
+//Add the files to the stage if required
+
+// To add all files
+git add .
+// To add a particular file
+git add <filename>
+
+// Commit your changes
+git commit -m "Commit message"
+
+// Push your changes to the remote origin of the branch
+git push origin B-destination
+
+
+
+
+
