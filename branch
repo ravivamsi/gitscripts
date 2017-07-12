@@ -1,0 +1,27 @@
+// Branching
+
+// Checkout other branch
+git checkout branchname
+
+
+// Rename a branch 
+git branch -m newbranchname
+
+
+// Create a new branch from the current branch
+git checkout -b newfeaturebranch
+
+
+// Create a new branch from other branch not the current one
+git checkout -b newfeaturebranch existingfeaturebranch
+
+
+
+// Multiline Difference
+git diff master..branch
+
+// Singleline difference
+git diff --color-words branch1..branch2
+
+
+
