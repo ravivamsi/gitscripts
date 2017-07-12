@@ -15,8 +15,6 @@ git checkout -b newfeaturebranch
 // Create a new branch from other branch not the current one
 git checkout -b newfeaturebranch existingfeaturebranch
 
-
-
 // Multiline Difference
 git diff master..branch
 
@@ -24,4 +22,10 @@ git diff master..branch
 git diff --color-words branch1..branch2
 
 
+// Delete the branch from the local and update the remote server
+git branch -d branchnametobedeleted
+git push origin :branchnametobedeleted
+
+// Delete the branch from the origin directly
+git branch origin --delete remotebranchtobedeeted
 
