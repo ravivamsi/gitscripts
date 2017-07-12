@@ -1,0 +1,18 @@
+Incase someone force push the code and you are struck with your changes being pushed:
+
+Get the sha1 number for the commit that needs to be cherry pick : <copy the sha1code here>
+
+// Rename the current branch which has the changes to <source-branchname>
+git branch -m <source-branchname>
+
+// Checkout the existing branch name 
+git checkout <branchname>
+
+// Cherry pick the sha1 required
+git cherry-pick <sha1code>
+
+// Check the log for the new cherry pick commit
+git log
+
+// Check-in the changes
+git push origin <branchname>
