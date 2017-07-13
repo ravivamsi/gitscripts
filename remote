@@ -1,0 +1,18 @@
+// Verify the remote of the current repository
+$ git remote -v
+
+// Add a remote to the local repository 
+$ git remote add origin <url>
+
+// Remove a remote from the local repository 
+$ git remote rm origin
+$ git remote remove origin
+
+
+// Inspect a remote 
+$ git remote show origin
+
+// Rename a remote 
+$ git remote rename origin source
+
+
