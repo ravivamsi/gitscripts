@@ -1,0 +1,13 @@
+// Clone a repository from the upstream to the current directory
+git clone <url to the remote repository>
+
+// Clone a repository from the upstream to the directory of your choice
+git clone <url to the remote repository> <path of the directory>
+
+// Clone a repository with a specific branch checkedout
+git clone -b <branchname> <url to the remote repository>
+
+// Clone a repository with a specific branch checkedout into the directory of your choice
+git clone -b <branchname> <url to the remote repository> <path to the directory>
+
+
