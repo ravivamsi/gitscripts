@@ -1,9 +1,7 @@
 // Migrate a repository from SVN to GIT with the history
 
 
-Prepare notes from the https://www.atlassian.com/git/tutorials/migrating-convert
-
-
+Prepare notes from the https://www.atlassian.com/git/tutorials/migrating-convert and https://john.albin.net/git/convert-subversion-to-git
 
 // Get the library svn-git 
 
