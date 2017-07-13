@@ -1,0 +1,52 @@
+// Save the changes made to the tracked files
+$ git stash
+
+// Save the changes made to the tracked and untracked files 
+$ git stash -u
+
+// Save the changes made to the tracked, untracked and ignored files 
+$ git stash -a
+
+// Save the changes made with a description   
+$ git stash save "description goes here"
+
+// List of the stashes made
+$ git stash list
+
+// Pop the changes of the last stash. Note: the pop will remove the changes from the stash history
+$ git stash pop
+
+// Apply the changes of the last stash. Note: the apply will have the track of changes in the stash history
+$ git stash apply
+
+// Pop a selected stash from the nth stash of the history
+$ git stash pop stash@{n} 
+
+// Apply a selected stash from the nth stash of the history
+$ git stash apply stash@{n}
+
+// Cleaning up the nth stash from the stash history
+$ git stash drop stash@{n}
+
+// Delete all the stashes
+$ git stash clear
+
+// Show the diff summary of the stash
+$ git stash show
+
+// Show the diff summary of the nth stash
+$ git stash show stash@{n}
+
+// Show the full diff of the stash
+$ git stash show -p 
+ 
+// Show the full diff of the nth stash
+$ git stash show -p stash@{n}
+
+// Create a branch from your nth stash
+$ git stash branch branchname stash@{n}
+
+
+
+
+
