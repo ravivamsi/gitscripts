@@ -1,0 +1,20 @@
+// Migrate a repository from SVN to GIT with the history
+
+
+Prepare notes from the https://www.atlassian.com/git/tutorials/migrating-convert
+
+
+
+// Get the library svn-git 
+
+// Prep for the migration
+
+
+// Get the code from SVN 
+
+
+// Changes to the repository
+
+
+// Push the code to the git
+ 
