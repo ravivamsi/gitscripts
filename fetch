@@ -1,0 +1,9 @@
+// Fetch changes from remote, assuming origin is your remote
+$ git fetch origin
+
+// Fetch changes from all the branches
+$ git fetch --all
+
+// Fetch changes from the specific branch 
+$ git fetch origin  branchname:local_branchname
+
