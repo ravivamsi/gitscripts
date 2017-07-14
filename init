@@ -1,0 +1,13 @@
+// Initialize the repository in the current directory
+$ git init
+
+// Intialize the repository in the directory  of your choice
+$ git init <path to the directory>
+
+// Initialize a bare repository in the current machine 
+$ git init --bare <path to the directory>.git
+
+// Create a bare repo in the remote server with ssh
+ssh <username>@<host> cd <path to the directory> git init  --bare <repositoryname>.git
+
+

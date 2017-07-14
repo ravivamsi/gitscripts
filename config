@@ -1,0 +1,16 @@
+// Configure and set the global user name 
+$ git config --global user.name "Your Name"
+
+// Read the global username
+$ git config user.name
+
+// Configure and set the global user email
+$ git config --global user.email youremail@domain.com
+
+// Read the global user email
+$ git config user.email
+
+// List of all the configutation settinga
+$ git config --list
+
+
