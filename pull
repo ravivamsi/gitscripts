@@ -1,0 +1,6 @@
+// Pull the changes from all branches 
+$ git pull --all
+
+// Pull the changes from a specific remote branch, assuming origin is your remote
+$ git pull origin <branchname>
+
